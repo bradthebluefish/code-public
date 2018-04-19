@@ -1,0 +1,8 @@
+<!-- BUTTON MEDIUM -->
+.gbs-button-medium {
+    background-color: #ee1d2f;
+    color: white !important;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+}

@@ -1,0 +1,13 @@
+/* Black Overlay - Darken an Image */
+background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)),
+    url(your-image-here.jpg);
+}
+
+/* White Overlay - Lighten an Image */
+background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.5)),
+    url(your-image-here.jpg);
+}
