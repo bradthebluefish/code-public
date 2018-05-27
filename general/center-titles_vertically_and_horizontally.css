@@ -1,0 +1,26 @@
+/* Time 2 Rise Above - SUCCESS STORIES */
+/* http://www.time2riseabove.com/ */
+.success-stories-portrait p {
+    display: table-cell;
+    vertical-align: middle; /* horizontal center */
+    padding: 10px 20px 12px 20px;
+    height: 80px;
+    width: 100vw; /* verticle center */
+}
+
+/* W.A. Bragg - APPLIANCES */
+/* http://www.wabragg.com/products/appliances/ */
+.product-column div.uvc-main-heading.ult-responsive h2 {
+    display: table-cell;
+    vertical-align: middle; /* horizontal center */
+    padding: 0 10px 0 10px;
+    height: 100px;
+    width: 100vw;  /* verticle center */
+}
+
+/* NOTES */
+/* 
+	1. Margin does NOT work with "table-cell."
+	2. The line "width: 100vw" tacks place of "text-align: center" for the latter
+    does NOT seem to work either.
+*/

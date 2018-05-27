@@ -1,0 +1,29 @@
+<!--
+How to Make Google Maps Embeds Responsive
+https://www.labnol.org/internet/embed-responsive-google-maps/
+-->
+
+<!-- EXAMPLE -->
+<div class="google-maps">
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.329091561876!2d-70.92256804869719!3d42.50581397907509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3136f6fb5d843%3A0x4b2a584d1adc7d10!2sTropical+Products+Inc!5e0!3m2!1sen!2sus!4v1447175805553" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+
+<!-- CSS CODE -->
+<style>
+
+/* GOOGLE MAPS */
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; /* This is the aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+</style>

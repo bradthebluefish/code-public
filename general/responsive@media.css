@@ -1,0 +1,30 @@
+/* LAPTOP + DESKTOP */
+@media (min-width:768px){
+    .desktop-form {
+        display: block;
+    }
+    .mobile-form {
+        display: none;
+    }
+}
+
+/* MOBILE + TABLET */
+@media (max-width:767px){
+    .desktop-form {
+        display: none;
+    }
+    .mobile-form {
+        display: block;
+    }
+}
+
+
+/*
+	IN BETWEEEN TWO SCREENS
+	No greater than 800px, no less than 400px 
+*/
+@media (max-width:800px) and (min-width:400px){
+	.class-name {  
+		/* insert code here */
+	};
+}
