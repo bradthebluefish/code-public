@@ -1,0 +1,23 @@
+/*
+*
+* This file is for Front End CSS.
+*	
+*/
+
+.copyright-bar {
+  color: #eeeeee;
+  background-color: #24282e;
+	display: block;
+	font-size: 16px;
+  line-height: normal;
+	overflow: hidden;
+	text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.copyright-bar p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
