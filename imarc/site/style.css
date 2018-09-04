@@ -1,0 +1,223 @@
+/* GENERAL */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* IMAGES */
+a img:hover {
+	opacity: 0.8;
+}
+.logo a img {
+	transition: transform .2s; /* Animation */
+}
+.logo a img:hover {
+  transform: scale(1.05);
+}
+img.lightbox:hover {
+	opacity: 0.8;
+}
+
+/* TYPOGRAPHY */
+.uppercase {
+	text-transform: uppercase;
+}
+.headliner {
+	font-size: 24px;
+}
+.fw-300 {
+	font-weight: 300;
+}
+* {
+	font-family: "Helvetica Neue";
+}
+a {
+	color: #316796;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  border-radius: 0;
+}
+
+/* LIGHTBOX */
+.lightbox {
+	border: solid 5px #f8f9fa;
+}
+.lightbox-overlay {
+   display: relative;
+}
+.lightbox-overlay .fas {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-size: 20px;
+  background-color: #f8f9fa;
+  padding: 12px;
+  color: #999999;
+}
+
+
+/* BREADCRUMBS */
+.breadcrumbs {
+	background-color: #f8f9fa;
+}
+.breadcrumb {
+  background-color: inherit;
+	margin-bottom: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #acacac;
+}
+.breadcrumb-item.active {
+    color: #413e3f;
+}
+
+/* RECENT NEWS */
+.date:after{
+	content: " |";
+}
+
+/* LISTS */
+ul.checkmarks {
+	list-style: none;
+  -webkit-padding-start: 0;
+}
+ul.checkmarks li {
+    background: url(file:///Users/Brad/Documents/Web/Websites/iMarc/Site/images/checkmark.png) no-repeat left top;
+    padding-left: 35px;
+}
+
+/* HEADER */
+.top-jumbotron {
+	background-image: url(file:///Users/Brad/Documents/Web/Websites/iMarc/Site/images/banner-clean.png);
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	border-image: url(file:///Users/Brad/Documents/Web/Websites/iMarc/Site/images/banner-border.png) 30 stretch !Important;
+  border-bottom: 12px solid !important;
+}
+
+/* FOOTER */
+.footer {
+  padding: 0 0 1rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.footer .jumbotron {
+  background-attachment: fixed;
+	background-image: url(file:///Users/Brad/Documents/Web/Websites/iMarc/Site/images/focus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+}
+.blue-background {
+	background-color: #2D699D;
+	background-color: rgba(45, 105, 157, 0.8);
+}
+.quote {
+	font-size: 24px;
+  font-weight: 300;
+}
+.profile {
+	font-size: 11px;
+}
+.profle-title {
+	font-weight: bold;
+}
+.our-people-and-culture {
+	background-image: url(file:///Users/Brad/Documents/Web/Websites/iMarc/Site/images/box-our-people-and-culture.png);
+	background-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  min-height: 148px;
+}
+.career-openings {
+	background-image: url(file:///Users/Brad/Documents/Web/Websites/iMarc/Site/images/box-career-openings.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  min-height: 148px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* SIDEBAR - MOBILE */
+@media only screen and (max-width: 767px) {
+	.full-width-gb {
+		text-align: center !important;
+	}
+}
+
+/* BUTTONS */
+.btn {
+	font-size: 14px;
+	padding: 12px 35px 12px 35px;
+	text-transform: uppercase;
+  transition: 0.4s !Important;
+  white-space: normal;
+}
+.btn::after {
+	content: ">";
+	font-weight: 900;
+	margin-left: 15px;
+}
+.btn::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 15px;
+}
+.btn-white {
+	border-radius: 0;
+	background-color: #ffffff;
+	color: #008000;
+}
+.btn:hover {
+	background-color: #008000;
+	color: #ffffff;
+}
+
+/* SIDEBAR */
+/* SIDEBAR - DESKTOP */
+@media only screen and (min-width: 768px) {
+	.sidebar-overflow {
+	   position: relative;
+	   background-color: transparent;
+	}
+	.sidebar-overflow::before {
+	   content: " ";
+	   position: absolute;
+	   width: 200%;
+	   width: 50vw;
+	   height: 100%;
+	   z-index: -1;
+	   background-color: #f8f9fa;
+	}
+}
+/* SIDEBAR - MOBILE */
+@media only screen and (max-width: 767px) {
+	.sidebar {
+	  margin-top: 2rem;
+	}
+}
+
+/* GUIDES */
+/*
+https://www.exratione.com/2011/09/how-to-overflow-a-background-image-using-css3/
+https://www.w3schools.com/howto/howto_js_lightbox.asp
+*/
